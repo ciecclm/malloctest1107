@@ -41,7 +41,7 @@ int main(int argc, const char * argv[]) {
         }
     }
     for (i=0;i<N;i++)
-        printf("姓名：%s 性别：%s 年 龄：%d 电话：%s\n",a[i].name,a[i].sex,a[i].age,a[i].PN);
+        printf("姓名：%s 性别：%s 年 龄：%d 移动电话：%s\n",a[i].name,a[i].sex,a[i].age,a[i].PN);
     delete a;
     return 0;
 }
